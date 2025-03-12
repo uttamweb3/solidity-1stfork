@@ -118,7 +118,7 @@ if(EMSCRIPTEN)
         endif()
       endif()
     else()
-        message(FATAL_ERROR "Solidity requires Z3 for emscripten build.")
+        message(FATAL_ERROR "SOLIDITY REQUIRE Z3 FOR emscripten build.")
     endif()
 endif()
 
